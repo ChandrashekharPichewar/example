@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a199c68c5e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/6cfb21434c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="index.js" defer></script>
+    
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="iamdigipro" style="width: 110px; height: 40px; ;"></a>
+        </div>
+        
+        <div class="toggle-search-icon" style="display: flex;">
+            <div class="nav-search-icon">
+                        
+                <div class="container-search">
+                    <form role="search" method="get" class="search-form-icon" action="">
+                        <label>
+
+                         <input type="search" class="search-field" placeholder="Search …" value="" name="s" title="Search for:" />
+                        </label>
+                            <input type="submit" class="search-submit" value="Search" />
+                     </form>
+                </div>
+            </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        
+                          
+                        <span class="navbar-toggler-icon"></span>
+                    
+                    </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>
+                    Services</b>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item"  href="digitalMarketingServicesPage.html">Digital Marketing   <i class="fa-solid fa-arrow-right" style="color: #fafafa; float: right;"></i></a>
+                        <a class="dropdown-item"  href="WebDevelopment.html">Web/App Development <i class="fa-solid fa-arrow-right" style="color: #fafafa; float: right;"></i></a>
+                        <a class="dropdown-item"  href="graphicDesign.html">Graphic/UI Design <i class="fa-solid fa-arrow-right" style="color: #fafafa; float: right;"></i></a>
+                        <a class="dropdown-item"  href="consultingServices.html">Consulting <i class="fa-solid fa-arrow-right" style="color: #fafafa; float: right;"></i></a>
+                        <a class="dropdown-item"  href="influencerMarketingServices.html">Influencer Marketing <i class="fa-solid fa-arrow-right" style="color: #fafafa; float: right;"></i></a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>
+                    Careers</b>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item"  href="careersPage.html">Training <i class="fa-solid fa-arrow-right" style="color: #fafafa; float: right;"></i></a>
+                        <a class="dropdown-item"  href="careersPage.html#internshipSupportSection">Internship <i class="fa-solid fa-arrow-right" style="color: #fafafa; float: right;"></i></a>
+                        <a class="dropdown-item"  href="careersPage.html#jobAssistanceSection">Job Oppartunities <i class="fa-solid fa-arrow-right" style="color: #fafafa; float: right;"></i></a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="portfolio.html"><b>Portfolio</b></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="blogspage.html"><b>Blogs</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html"><b>About us</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="consultsus.html"><b>Consult us</b></a>
+                </li>
+            </ul>
+            
+            <form class="form-inline my-2 my-sm-0">
+                <input class="form-control mr-xl-2" type="search" placeholder="&#xF002; Search" value="" name="s"  title="Search for:" style="font-family:Arial, FontAwesome; width: 45%;" aria-label="Search">
+                <button type="button" class="login-btn" data-toggle="modal" data-target="#exampleModal">Log in</button>
+                <button type="button" class="signup-btn" data-toggle="modal" data-target="#exampleModal1">Sign Up</button>
+            </form>
+        
+        </diV>
+        
+
+</nav>
+         
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-m">
+<div class="modal-content">
+    <div class="modal-body" style="border-radius: 20px;">
+        <div class="modal-login">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"><i class="fa-solid fa-circle-xmark"></i></span>
+            </button>
+            <h1>Welcome back!</h1>
+            <p>Enter your username and password to log in to your admin panel</p>
+            <label>Email</label>
+            <input type="email" name="uname" placeholder="example@gmail.com" required/>
+            <label>Password</label>
+            <input type="password" name="psw" placeholder="Your Password" required/>
+            <label>
+            <input type="checkbox" checked="checked" name="remember">Remember me
+            </label>
+            <button id="btn-login">Log in</button>
+            <button id="btn-g-login">Log in with Google</button>
+            <p>Don't have an account yet? <a data-toggle="modal" data-hide="#exampleModal" data-target="#exampleModal1"><b>Sign Up</b></a></p>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-m"> 
+<div class="modal-content">
+    <div class="modal-body" style="border-radius: 20px;">
+        <div class="modal-login">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"><i class="fa-solid fa-circle-xmark"></i></span>
+            </button>
+            <h1>Sign up</h1>
+            <p>Register to log in to your admin panel</p>
+            <label>Email</label>
+            <input type="email" name="uname" placeholder="example@gmail.com" required/>
+            <div class="signup-psw">
+            <div class="signup-password">
+                <label>Password</label>
+                <input type="password" name="psw" placeholder="Your Password" required/>
+                </div>
+                <div class="signup-confirm-password">
+                    <label>Confirm Password</label>
+                    <input type="password" name="psw" placeholder="Confirm Password" required/>
+                </div>
+            </div>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember">I have read and accept terms and conditions
+                </label>
+                <button id="btn-login">Sign Up</button>
+                <button id="btn-g-login">Sign Up with Google</button>
+                <p>Have an account? <a data-toggle="modal" data-target="#exampleModal"><b>Sign in</b></a></p>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+    <section class="success-stories">
+        <div class="container">
+            <h1>Our Success Stories</h1>
+            <p>Showcasing the Impact of IAM DIGIPRO's Expertise</p>
+        </div>
+    </section>
+    <div class="filters-container">
+        <div class="filters">
+            <button class="filter" onclick="showMode('all')" style="background-color: black; color: white;">All</button>
+            <button class="filter" onclick="showMode('social-media-post')">Social media Post</button>
+            <button class="filter" onclick="showMode('package-designing')">Package Designing</button>
+            <button class="filter" onclick="showMode('youtube-management')">School YouTube Channel Management</button>
+            <button class="filter" onclick="showMode('package-designing-updated')">Package Designing (updated)</button>
+            <button class="filter" onclick="showMode('restaurant-website')">Restaurant Website Development</button>
+            <button class="filter" onclick="showMode('digital-marketing')">Digital Marketing Strategy</button>
+        </div>
+    </div>
+
+    <div class="sub-container">
+        <div class="box-wrapper" data-mode="social-media-post">
+            <div class="box">
+                <div class="inner-box" onclick="socialmediapage()">
+                    <img src="images/portfolio images/social media post/socialmedia.jpg" alt="SocialMediaPostImage">
+                </div>
+            </div>
+            <div class="text-container">
+                <div class="title">Social media Post</div>
+                <div class="subtitle">Design</div>
+            </div>
+        </div>
+        <div class="box-wrapper" data-mode="package-designing">
+            <div class="box">
+                <div class="inner-box" onclick="packagedesign()">
+                    <img src="images/portfolio images/package/package.jpg" alt="PackageDesignImage">
+                </div>
+            </div>
+            <div class="text-container">
+                <div class="title">Package Designing</div>
+                <div class="subtitle">Design</div>
+            </div>
+        </div>
+        <div class="box-wrapper" data-mode="youtube-management">
+            <div class="box">
+                <div class="inner-box" onclick="youtubemanagement()">
+                    <img src="images/portfolio images/school youtube channel management/SchoolManagement.jpg" alt="SchoolManagementImage">
+                </div>
+            </div>
+            <div class="text-container">
+                <div class="title">School YouTube Channel Management</div>
+                <div class="subtitle">Design</div>
+            </div>
+        </div>
+        <div class="box-wrapper" data-mode="package-designing-updated">
+            <div class="box">
+                <div class="inner-box" onclick="packageupdated()">
+                    <img src="images/portfolio images/package designing(updated)/packagedesigning.jpg" alt="packagedesigningImage">
+                </div>
+            </div>
+            <div class="text-container">
+                <div class="title">Package Designing (updated)</div>
+                <div class="subtitle">Design</div>
+            </div>
+        </div>
+        <div class="box-wrapper" data-mode="restaurant-website">
+            <div class="box">
+                <div class="inner-box" onclick="restaurantwebsite()">
+                    <img src="images/portfolio images/restuarant website developement/restuarant.jpg" alt="RestaurantWebsiteImage">
+                </div>
+            </div>
+            <div class="text-container">
+                <div class="title">Restaurant Website Development</div>
+                <div class="subtitle">Design</div>
+            </div>
+        </div>
+        <div class="box-wrapper" data-mode="digital-marketing">
+            <div class="box">
+                <div class="inner-box" onclick="dms()">
+                    <img src="images/portfolio images/digital marketing strategy/DigitalMarketing.jpg" alt="DigitalMarketingStrategyImage">
+                </div>
+            </div>
+            <div class="text-container">
+                <div class="title">Digital Marketing Strategy</div>
+                <div class="subtitle">Design</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var containers = document.querySelectorAll('.box-wrapper');
+        containers.forEach(container => {
+            container.style.display = 'block'; // Display all containers initially
+        });
+    });
+    function showMode(mode) {
+        var containers = document.querySelectorAll('.box-wrapper');
+        
+        if (mode === 'all') {
+            containers.forEach(container => {
+                container.style.display = 'block';
+            });
+        } else {
+            containers.forEach(container => {
+                if (container.getAttribute('data-mode') === mode) {
+                    container.style.display = 'block';
+                } else {
+                    container.style.display = 'none';
+                }
+            });
+        }
+    }
+    </script> <!-- Link to the separate JS file -->
+    <div class="mid-container">
+        <div class="grid-item2">
+            <h1>You Request. <br>We Build!</h1>
+            <h2>We start every project by listening to understand your needs so we can give you the time, attention, and care you deserve.</h2>
+        </div>
+    </div>
+
+    <div>
+        <div class="content" id="section1" onclick="display1()">
+            <div class="sercives-container">
+                <div class="service-container1">
+                    <div class="service-container2">
+                        <i class="fa-solid fa-arrow-right arr-right rig"></i>
+                        <h1 class="service-heading">Services</h1>
+                        <h2 class="ser-hed">What we offer</h2>
+                    </div>
+                    <div class="card-ser-container">
+                        
+                        <div class="list-ser">
+                            <p class="ser-para">01</p>
+                            <h3 class="dig-head">Digital Marketing</h3>
+                            <p class="ser-par">We enhance your online presence and drive engagement through advanced SEO, social media, content marketing, and paid advertising strategies.</p>
+                            <div>
+                                <a href="SEOserviceKnowmorePage.html"><button class="btn-option">Search Engine Optimization</button></a>
+                                <a href="PPCKnowmorePage.html"><button class="btn-option">Pay-Per-Click</button></a>
+                                <a href="SocialmediaKnowmorePage.html"><button class="btn-option">Social Media Marketing</button></a>
+                                <a href="contentMarketingKnowmorePage.html"><button class="btn-option">Content Marketing</button></a>
+                                <a href="emailMarketingKnowmorePage.html"><button class="btn-option">Email Marketing</button></a>
+                            </div> 
+                            <div class="btn-container">
+                                <a href="digitalMarketingServicesPage.html"><button class="explore-button">Explore <i class="fa-solid fa-arrow-right arr-right right"></i></button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="explore-container">
+                    <div>
+                        <h2 class="ser-hed">What you get</h2>
+                        <img src="https://res.cloudinary.com/douitd8ad/image/upload/v1720602984/1_lcne5s.png">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+          <div class="content" id="section2" onclick="display2()" style="display: none;">
+                <div class="sercives-container">
+                <div class="service-container1">
+                    <div class="service-container2">
+                        <i class="fa-solid fa-arrow-right arr-right rig"></i>
+                        <h1 class="service-heading">Services</h1>
+                        <h2 class="ser-hed">What we offer</h2>
+                    </div>
+                    <div class="card-ser-container">
+                        
+                        <div class="list-ser">
+                            <p class="ser-para">02</p>
+                            <h3 class="dig-head">Web/App 
+                                <br/>Development</h3>
+                                <p class="ser-par">We create responsive, user-friendly websites using the latest technologies to ensure they are fast, secure, and scalable.</p>
+                                <a href="frontendDesignKnowmorePage.html"><button class="btn-option">Frontend Developer</button></a>
+                                <a href="backendDesignKnowmorePage.html"><button class="btn-option">Backend Developer</button></a>
+                                <a href="FullstackKnowmorePage.html"><button class="btn-option">Full-stack Developer</button></a>
+                                <a href="appDevelopmentKnowmorePage.html"><button class="btn-option">App Developer</button></a>
+                                <div class="btn-container">
+                                    <a href="WebDevelopment.html"><button class="explore-button">Explore <i class="fa-solid fa-arrow-right arr-right right"></i></button></a>
+                                </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="explore-container section2">
+                    <div>
+                        <h2 class="ser-hed">What you get</h2>
+                        <img src="https://res.cloudinary.com/douitd8ad/image/upload/v1720602984/2_wg8wbz.png">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+            <div class="content" id="section3" onclick="display3()" style="display: none;">
+                <div class="sercives-container">
+                    <div class="service-container1">
+                        <div class="service-container2">
+                            <i class="fa-solid fa-arrow-right arr-right rig"></i>
+                            <h1 class="service-heading">Services</h1>
+                            <h2 class="ser-hed">What we offer</h2>
+                        </div>
+                        <div class="card-ser-container">
+                            
+                            <div class="list-ser">
+                                <p class="ser-para">03</p>
+                                <h3 class="dig-head">Graphic / UI 
+                                    <br/>Design</h3>
+                                    <p class="ser-par">Our graphic design services establish a strong brand identity with visually stunning, high-quality designs that captivate and engage your audience.</p>
+                                    <div>
+                                        <a href="brandingKnowmorePage.html"><button class="btn-option">Branding</button></a>
+                                        <a href="logodesignKnowmorePage.html"><button class="btn-option">Logo Design</button></a>
+                                        <a href="UI-UXKnowmorePage.html"><button class="btn-option">UI/UX Design</button></a>
+                                    </div>
+                                <div class="btn-container">
+                                    <a href="graphicDesign.html"><button class="explore-button">Explore <i class="fa-solid fa-arrow-right arr-right right"></i></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="explore-container section3">
+                        <div>
+                            <h2 class="ser-hed">What you get</h2>
+                            <img src="https://res.cloudinary.com/douitd8ad/image/upload/v1720602984/3_kgj3a5.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="section4" onclick="display4()" style="display: none;">
+                <div class="sercives-container">
+                    <div class="service-container1">
+                        <div class="service-container2">
+                            <i class="fa-solid fa-arrow-right arr-right rig"></i>
+                            <h1 class="service-heading">Services</h1>
+                            <h2 class="ser-hed">What we offer</h2>
+                        </div>
+                        <div class="card-ser-container">
+                            
+                            <div class="list-ser">
+                                <p class="ser-para">04</p>
+                                <h3 class="dig-head">Consulting</h3>
+                                <p class="ser-par">Our consulting services offer expert advice and strategic insights to help with digital transformation, process optimization, and strategic planning.</p>
+                                <div>
+                                    <a href="businessStrategyKnowmorePage.html"><button class="btn-option">Business Strategy</button></a>
+                                    <a href="digitalTransformationKnowmorePage.html"><button class="btn-option">Digital Transformation</button></a>
+                                </div>
+                                <div class="btn-container">
+                                    <a href="consultingServices.html"><button class="explore-button">Explore <i class="fa-solid fa-arrow-right arr-right right"></i></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="explore-container section4">
+                        <div>
+                            <h2 class="ser-hed">What you get</h2>
+                            <img src="https://res.cloudinary.com/douitd8ad/image/upload/v1720602984/4_pcg6rq.png">
+                        </div>
+                        
+                    </div>
+                </div>
+              </div>
+              <div class="content" id="section5" onclick="display5()" style="display: none;">
+                <div class="sercives-container">
+                    <div class="service-container1">
+                        <div class="service-container2">
+                            <i class="fa-solid fa-arrow-right arr-right rig"></i>
+                            <h1 class="service-heading">Services</h1>
+                            <h2 class="ser-hed">What we offer</h2>
+                        </div>
+                        <div class="card-ser-container">
+                            
+                            <div class="list-ser">
+                                <p class="ser-para">05</p>
+                                <h3 class="dig-head">Influencer
+                                    <br/>Marketing</h3>
+                                    <p class="ser-par">We connect you with the right influencers to amplity your brand's message and reach a wider audience through data-driven, tailored strategies for maximum impact and ROl.</p>
+                                    <div>
+                                        <a href="campaignStrategyKnowmorePage.html"><button class="btn-option">Campaign Strategy</button></a>
+                                        <a href="influencerOutreachKnowmorePage.html"><button class="btn-option">Influencer Outreach</button></a>
+                                        <a href="brandKPartnershipnowmorePage.html"><button class="btn-option">Brand Partnership</button></a>
+                                        <a href="ContentCreationKnowmorePage.html"><button class="btn-option">Content Creating</button></a>
+                                    </div>
+                                <div class="btn-container">
+                                    <a href="influencerMarketingServices.html"><button class="explore-button">Explore <i class="fa-solid fa-arrow-right arr-right right"></i></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="explore-container section5">
+                        <div>
+                            <h2 class="ser-hed">What you get</h2>
+                            <img src="https://res.cloudinary.com/douitd8ad/image/upload/v1720602984/5_xsj6ob.png">
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <!--footer-->
+<footer class="footer">
+    <div class="footer-section">
+        <div class="column logo">
+            <img src="images/logo2.png" alt="iamdigipro">
+        </div>
+        <div class="column">
+            <h3>About</h3>
+            <ul>
+                <li><a href="About.html">About us</a></li>
+                <li><a href="consultsus.html">Contact us</a></li>
+                <li><a href="blogspage.html">Blog</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Services</h3>
+            <ul>
+                <li><a href="digitalMarketingServicesPage.html">Digital Marketing</a></li>
+                <li><a href="WebDevelopment.html">Web Development</a></li>
+                <li><a href="graphicDesign.html">Graphic Design</a></li>
+                <li><a href="consultingServices.html">Consulting</a></li>
+                <li><a href="influencerMarketingServices.html">Influencer Marketing</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Careers</h3>
+            <ul>
+                <li><a href="careersPage.html">Training</a></li>
+                <li><a href="careersPage.html#internshipSupportSection">Internship</a></li>
+                <li><a href="careersPage.html#jobAssistanceSection">Job Opportunities</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+   
+<div class="footer-bottom d-flex flex-row ">
+    <div class="copyright">
+        <li>@2024 IAM DIGIPRO</li>
+        <li><a href="privacyPolicy.html">Privacy Policy</a></li>
+        <li>Cookies Policy</li>
+        <li><a href="termsOfUse.html">Terms of use</a></li>
+    </div>
+    <div class="footer-email">
+        <p><b>Email Us at:</b> info@iamdigipro.com</p>
+    </div>
+    <div class="social-icons">
+        <a href="https://www.instagram.com/iam_digipro?igsh=MzRlODBiNWFlZA==" target="_blank" class="social-icon instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61560868171435" target="_blank" class="social-icon facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/iam-digipro-127123313/" target="_blank" class="social-icon linkedin"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://x.com/iamdigipro" target="_blank" class="social-icon linkedin"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.youtube.com/@IamDigitalPro/featured" target="_blank" class="social-icon linkedin"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+</div>
+ <!-- jump button -->
+        
+ <div class="footer-right d-flex justify-content-end">
+    <a href="#" id="goTop" class="go-top"><i class="fa-solid fa-arrow-up-long"></i></a>
+</div>
+</footer>
+
+<div class="wtsapp-icons ">
+    <a aria-label="Chat on WhatsApp" href="https://wa.me/9381776396"> <i class="fa-brands fa-whatsapp"></i></a>
+</div>
+</div>  
+
+<button class="ct-button" id="openFormButton"><i class="fa-solid fa-circle fa-beat-fade blinking"></i>Let's talk</button>
+
+<div id="formContainer" class="modal-form-container">
+<form class="modal-form">
+    
+        <i class="fa-solid fa-circle-xmark cl-icon" onclick="closeForm()" style="float: right; color: white;" ></i>
+      
+    <h1 style="font-size: small; margin: 5px;">I am Interested in</h1>
+    <div class="interest-buttons">
+        <div>
+            <button type="button" style="font-size: x-small">Digital Marketing</button>
+            <button type="button" style="font-size: x-small">Web Development</button>
+        </div>
+        <div>
+            <button type="button" style="font-size: x-small">Graphic Design</button>
+            <button type="button" style="font-size: x-small">Consulting</button>
+            <button type="button" style="font-size: x-small">Influencer Marketing</button>
+        </div>
+    </div>
+    <label for="name">I am</label>
+    <input type="text" id="name" name="name" placeholder="John" required>
+    <label for="phone">Phone number</label>
+    <input type="tel" id="phone" name="phone" required>
+    <label for="email">Email <span style="color:rgb(109, 109, 108);">(Optional)</span></label>
+    <input type="email" id="email" name="email" placeholder="iam@gmail.com">
+    <button type="submit" class="enquiry-send-button" style="padding: 10px; margin-right: 15px;font-size: small">Send</button>
+</form>
+</div>
+
+<script>
+document.getElementById('openFormButton').addEventListener('click', function() {
+    var formContainer = document.getElementById('formContainer');
+    if (formContainer.style.display === 'none' || formContainer.style.display === '') {
+        formContainer.style.display = 'block';
+    } else {
+        formContainer.style.display = 'none';
+    }
+});
+function closeForm() {
+var formContainer = document.getElementById('formContainer');
+formContainer.style.display = 'none';
+}
+</script>
+
+    
+            <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+            <script src="portfolio.js"></script>
+</body>
+</html>
