@@ -1,0 +1,7 @@
+.sty{
+    display: flex;
+    background-color: #00ffff;
+    height: 100px;
+    flex-direction: row;
+
+}
